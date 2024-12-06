@@ -2,7 +2,7 @@
 void main()
 {
   int? age; //when the value is assigned in the variable it is called non-nullable variable
-  print(age);//but when the value is not assigned it is nullable variable hence we use ? to assign that it may the null value
+  print(age);//but when the value is not assigned it is nullable variable hence we use ? to assign that it may be the null value
   print('Hello World');
   String? name;
   //the purpose of nullable variable is that we will assign the value later on
@@ -23,7 +23,6 @@ void main()
   Person p2 = Person();
   p2.name = 'Arshi';
   p2.display();
-
 }
 
 class Person{
