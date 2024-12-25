@@ -1,6 +1,6 @@
 // Constructor -
 // Constructor is specialized method which is used to initialize object
-// Constructor is automatically called when the user created the object
+// Constructor is automatically called when the user creates the object
 // Constructor has same name as the class name
 
 import 'package:flutter/cupertino.dart';
@@ -41,7 +41,7 @@ class Student {
     // 2nd Way
     //   Student(this.name, this.age) //we can also write this one line directly
     //   {
-    //     print('Second method called ');
+    //     print('Second method called');
     //   }
     //
     //   //3rd way

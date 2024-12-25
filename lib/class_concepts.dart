@@ -26,7 +26,6 @@ void main()
 }
 
 class Person{
-
   // these are static value which is created
   String? name; // as i have not initialized hence it will be not null and i will initialize using its instance
   int age=25;
@@ -37,5 +36,4 @@ class Person{
     print('My age is ${age}');
     print('My religion is ${religion}');
   }
-
 }
