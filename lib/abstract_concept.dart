@@ -2,11 +2,10 @@ void main(){
 
   Network n1 = Network();
 
-  Map<String, String> data ={
-    'email': 'mohdallmeen@gmail.com',
-    'password': '1234567890'
+  Map<String, String> data = {
+   'email': 'mohdallmeen6630@gmail.com',
+   'password' : '1234567890'
   };
-
   n1.postApi(data);
 
 }
@@ -26,6 +25,7 @@ class Network implements BaseclassApi{
      print('Api hit ');
     await Future.delayed(Duration(seconds: 3));
      print('user Successfully logges in');
+     print(data);
   }
   @override
    void getApi(){
