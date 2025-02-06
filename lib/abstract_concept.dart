@@ -24,11 +24,10 @@ class Network implements BaseclassApi{
    void postApi(var data) async{
      print('Api hit ');
     await Future.delayed(Duration(seconds: 3));
-     print('user Successfully logges in');
+     print('user Successfully logged in');
      print(data);
   }
   @override
    void getApi(){
-
    }
 }

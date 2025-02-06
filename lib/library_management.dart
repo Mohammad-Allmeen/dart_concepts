@@ -43,7 +43,7 @@ class Book{
 
 class Library {
   List<Book> books = []; // <Book> is the object of the Book class
-  List <Loan> loans = [];
+  List<Loan> loans = [];
 
   //
 
@@ -57,8 +57,7 @@ class Library {
     print('---list all the books in the library---');
 
     for (var book in books) { // var book is variable created which will run in the books list above
-      print(
-          'Title: ${book.title}, Author: ${book.author}, ISBN: ${book
+      print('Title: ${book.title}, Author: ${book.author}, ISBN: ${book
               .isbn}, Available: ${book.isAvailable}');
     }
   }
@@ -92,6 +91,8 @@ class Library {
 }
 // MEMBER CLASS
 
+
+
 class Member{
   String name;
   String memID;
@@ -108,6 +109,7 @@ class Loan{
 
   void returnbooks(){
     // returntime = DateTime.now();
+
     book.isAvailable = true;
   }
 }

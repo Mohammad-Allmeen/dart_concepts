@@ -4,6 +4,10 @@ void main(){
   p1.name= 'Allmeen';
   p1.age=23;
   p1.display();
+  p1.displayStudentInfo();
+  p1.regNum='1234';
+  p1.sem='4th';
+
 }
 
 //PARENT CLASS,SUPER CLASS, BASE CLASS

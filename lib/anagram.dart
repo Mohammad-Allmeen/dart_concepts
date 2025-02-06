@@ -4,7 +4,7 @@ void main(){
   print('Enter the first String');
   String str1 = stdin.readLineSync()!;
   print('Enter the second String');
-  String str2=stdin.readLineSync()!;
+  String str2= stdin.readLineSync()!;
 
 
   if(isAnagram(str1,str2))
