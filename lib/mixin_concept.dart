@@ -8,7 +8,7 @@ Important point for mixin-
  */
 
 void main(){
-  Person ob1= Person('Allmeen', '1234 5');
+  Person ob1= Person('Allmeen', '12345');
 }
 class Person with Logger, Validation{
   String name;

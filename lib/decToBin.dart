@@ -1,6 +1,6 @@
 import 'dart:io';
 
-String binToDec(int number){
+String decToBin(int number){
 
   StringBuffer result = StringBuffer();
   while(number>0){
@@ -16,6 +16,6 @@ void main() {
   print('Enter the decimal number');
   int? n= int.tryParse(stdin.readLineSync()!);
 
-  String binary= binToDec(n!);
+  String binary= decToBin(n!);
 
 }
